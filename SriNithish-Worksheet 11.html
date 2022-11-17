@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<H1>  <h1 onmouseover="style.color='red'" onmouseout="style.color='black'">Did you know? SriNithish's favorite colour is Red!</h1>
+    <img
+        id="duck"   
+        src="https://i.imgur.com/G8TcUqA.jpg"
+        onmouseover='(function(){
+            //this.src="./duck2.jpg"
+            document.getElementById("duck").src="https://i.imgur.com/dsF2mgL.jpg"
+            document.getElementById("message").innerHTML="I am so very tired"
+        })()'
+        onmouseout='(function(){
+            document.getElementById("duck").src="https://i.imgur.com/PKi5s3p.jpg"
+            document.getElementById("message").innerHTML="Now I am wide awake!"
+        })()'
+    >
+    <h2 id="message">I am Sri Nithish the Duck. (click me)</h2></H1> 
+    <h1 onmouseover="style.color='red'" onmouseout="style.color='black'">I chose the duck (orginally known as donald the duck) because he has been my hero since childhood. This Gif shows the duck tired and full awake which is me when I start of the day at school and end it of at school!</h1>
+
+</body>
+</html>
