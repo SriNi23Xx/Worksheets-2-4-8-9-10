@@ -1,0 +1,8 @@
+a=int (input(" Please Enter the first number: "))
+b = int (input(" Please Enter the second number: "))
+c = int (input(" Please Enter the third number: "))
+d = int(input( "Please Enter the fourth number: "))
+e = int(input( "Please Enter the fifth number: "))
+f = int(input( "Please Enter the sixth number: "))
+average=(a+b+c+d+e+f)/6.
+print("The average of six numbers is ", average)
